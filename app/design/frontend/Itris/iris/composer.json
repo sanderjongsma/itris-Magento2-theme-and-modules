@@ -1,0 +1,15 @@
+{
+    "name": "itris/iris",
+    "description": "Magento 2 theme",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "magento2-theme",
+    "require": {
+      "magento/framework": "100.1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
