@@ -1,1 +1,33 @@
+# Ignore files
 .DS_Store
+composer.lock
+.htaccess
+.php_cs
+.travis.yml
+.user.ini
+
+# Ignore magento 2 folder
+bin/
+dev/
+var/
+pub/
+lib/
+setup/
+phpserver/
+vendor/
+
+# Ignore magento 2 rootfolder files
+*.sample
+*.txt
+*.md
+*.php
+
+# Ignore magento 2 theme
+/app
+/tools
+
+# Allow
+!README.md
+!composer.json
+!dev/tools/frontools/config/themes.json
+!app/design/frontend/Itris/iris
