@@ -30,4 +30,5 @@ vendor/
 !README.md
 !composer.json
 !dev/tools/frontools/config/themes.json
-!app/design/frontend/Itris/iris
+!app/design/frontend/Itris/iris/**/*
+!app/code/Itris/**/*
