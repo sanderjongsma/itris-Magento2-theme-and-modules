@@ -23,12 +23,12 @@ vendor/
 *.php
 
 # Ignore magento 2 theme
-/app
-/tools
+app/
+tools/
 
 # Allow
 !README.md
 !composer.json
-!dev/tools/frontools/config/themes.json
+!dev/tools/frontools/config/*.json
 !app/design/frontend/Itris/iris/**/*
 !app/code/Itris/**/*
