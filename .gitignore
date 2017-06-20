@@ -1,5 +1,8 @@
 # Ignore files
 .DS_Store
+.idea
+*.sublime-workspace
+*.sublime-project
 composer.lock
 .htaccess
 .php_cs
@@ -29,6 +32,6 @@ tools/
 # Allow
 !README.md
 !composer.json
-!dev/tools/frontools/**/*
-!app/design/frontend/Itris/iris/**/*
-!app/code/Itris/**/*
+!/dev/tools/frontools/config/themes.json
+!/app/design/frontend/Itris/iris/**/*
+!/app/code/Itris/**/*
