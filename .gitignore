@@ -1,5 +1,5 @@
 # Ignore files
-/.DS_Store
+.DS_Store
 /.idea
 /*.sublime-workspace
 /*.sublime-project
@@ -36,13 +36,6 @@ composer.lock
 /.user.ini
 
 # Ignore magento 2 theme
-/app/*
-!/app/design/frontend/Itris/iris/**/*
-!/app/code/Itris/**/*
-/dev/*
-!/dev/tools/frontools/config/*
-/tools/*
+
 
 # Allow
-!/README.md
-!/composer.json

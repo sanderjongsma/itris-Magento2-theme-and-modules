@@ -1,4 +1,11 @@
+<!-- Configure theme Image sizes; http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/themes/theme-create.html -->
+
 <?xml version="1.0"?>
 <view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
-    <media/>
+	<media>
+		<image id="category_page_grid" type="small_image">
+			<width>250</width>
+			<height>250</height>
+		</image>
+	</media>
 </view>
