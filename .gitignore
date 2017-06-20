@@ -18,7 +18,6 @@ composer.lock
 
 # Ignore magento 2 folder
 /bin
-/dev
 /var
 /pub
 /lib
@@ -27,22 +26,23 @@ composer.lock
 /vendor
 
 # Ignore magento 2 rootfolder files
-*.sample
-*.txt
-*.md
-*.php
-.htaccess
-.php_cs
-.travis.yml
-.user.ini
+/*.sample
+/*.txt
+/*.md
+/*.php
+/.htaccess
+/.php_cs
+/.travis.yml
+/.user.ini
 
 # Ignore magento 2 theme
 /app
+!/app/design/frontend/Itris/iris/**/*
+!/app/code/Itris/**/*
+/dev
+!/dev/tools/frontools/config/*
 /tools
 
 # Allow
 !/README.md
 !/composer.json
-!/dev/tools/frontools/config/themes.json
-!/app/design/frontend/Itris/iris/**/*
-!/app/code/Itris/**/*
