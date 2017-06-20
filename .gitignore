@@ -1,9 +1,20 @@
 # Ignore files
-.DS_Store
-.idea
-*.sublime-workspace
-*.sublime-project
+/.DS_Store
+/.idea
+/*.sublime-workspace
+/*.sublime-project
+atlassian*
 composer.lock
+
+/.gitattributes
+
+/node_modules
+/.grunt
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
 
 # Ignore magento 2 folder
 /bin
