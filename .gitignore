@@ -36,12 +36,12 @@ composer.lock
 /.user.ini
 
 # Ignore magento 2 theme
-/app
+/app/*
 !/app/design/frontend/Itris/iris/**/*
 !/app/code/Itris/**/*
-/dev
+/dev/*
 !/dev/tools/frontools/config/*
-/tools
+/tools/*
 
 # Allow
 !/README.md
