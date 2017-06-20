@@ -21,7 +21,7 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 * Type `chmod +x bin/magento` in the commandline to make Magento 2 a extendable
 * Test the Magento 2 CLI by type `bin/magento`
 * Then run `bin/magento setup:install --admin-email="user="_user+magento2@yourdomain.dev_" --admin-firstname="_admin_" --admin-lastname="_admin_" --admin-password="_magento2test_" --admin-user="_admin_" --backend-frontname="_admin_" --base-url="_http://magento2.dev_" --db-host="_127.0.0.1_" --db-name="_magento2_" --db-user="_databaseuser_" --db-password=_databasepassword_" --use-rewrites="_1_" --use-secure="_0_"` to install Magento 2
-* run `bin/magento setup:static-content:deploy`
+* Run `bin/magento setup:static-content:deploy` to deploy the themes and backend
 
 #### Put Magento 2 in developers mode
 * run `bin/magento deploy:mode:set developer` to set Magento 2 in developers mode
@@ -45,7 +45,7 @@ Turn off admin notifications with n98-magerun2, run `n98-magerun2 admin:notifica
 ## Usefull Magento 2 CLI commands in development
 * `bin/magento setup:upgrade` When installing a Magento 2 plugin/module via composer
 * `bin/magento setup:di:compile` Generates DI configuration and all missing classes that can be auto-generated
-* `bin/magento setup:static-content:deploy --theme _theme_name_here_` Deploys static view files
+* `bin/magento setup:static-content:deploy --theme iris` Deploys static view files
 
 
 
