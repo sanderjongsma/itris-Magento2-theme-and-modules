@@ -1,11 +1,19 @@
 {
     "name": "itris/iris",
     "description": "Magento 2 theme",
+    "authors": [
+        {
+            "name": "Itris",
+            "email": "Itris@itris.io",
+            "homepage": "http://itris.io"
+        }
+    ],
     "version": "0.0.1",
     "license": "MIT",
     "type": "magento2-theme",
     "require": {
-      "magento/framework": "100.1.*"
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.1.*"
     },
     "autoload": {
         "files": [
