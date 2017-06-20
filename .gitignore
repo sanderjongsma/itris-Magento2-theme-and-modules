@@ -29,6 +29,6 @@ tools/
 # Allow
 !README.md
 !composer.json
-!dev/tools/frontools/config/*.json
+!dev/tools/frontools/**/*
 !app/design/frontend/Itris/iris/**/*
 !app/code/Itris/**/*
