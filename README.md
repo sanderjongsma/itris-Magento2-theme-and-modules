@@ -55,7 +55,7 @@ Turn off admin notifications with n98-magerun2, run `n98-magerun2 admin:notifica
 
 **[n98-magerun2](https://github.com/netz98/n98-magerun2)** The swiss army knife for Magento developers, sysadmins and devops. The tool provides a huge set of well tested command line commands which save hours of work time. All commands are extendable by a module API. 
 
-When developing on OSX you can use **[Valet](https://laravel.com/docs/master/valet)** as easy to use development environment. With Nginx and DnsMasq out of the box.
+When developing on OSX you can use **[Valet](https://laravel.com/docs/master/valet)** as a easy to use development environment. With Nginx and DnsMasq out of the box.
 
 
 
