@@ -14,7 +14,7 @@
     "localeOverwrites": true,
     "postcss": ["plugins.autoprefixer()"],
     "modules": {
-      "Iris_Core": "app/code/Iris/Iris/Core"
+      "Iris_Core": "app/code/Iris/Core"
     },
     "ignore": [
       "vendor/snowdog/module-sample/{docs,dist}/**",
