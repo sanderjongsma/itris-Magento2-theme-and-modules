@@ -20,7 +20,7 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 * Run `composer install`
 * Type `chmod +x bin/magento` in the commandline to make Magento 2 a extendable
 * Test the Magento 2 CLI by type `bin/magento`
-* Then run `bin/magento setup:install --admin-email="user="_user+magento2@yourdomain.dev_" --admin-firstname="_admin_" --admin-lastname="_admin_" --admin-password="_magento2test_" --admin-user="_admin_" --backend-frontname="_admin_" --base-url="_http://magento2.dev_" --db-host="_127.0.0.1_" --db-name="_magento2_" --db-user="_databaseuser_" --db-password=_databasepassword_" --use-rewrites="_1_" --use-secure="_0_"` to install Magento 2
+* Then run `bin/magento setup:install --admin-email="admin+magento2@topleveldomain.com" --admin-firstname="admin" --admin-lastname="admin" --admin-password="password123" --admin-user="admin" --backend-frontname="admin" --base-url="http://magento2.dev" --db-host="127.0.0.1" --db-name="magento2" --db-user="databaseuser" --db-password="databasepassword123" --use-rewrites="1" --use-secure="0"` to install Magento 2
 * Run `bin/magento setup:static-content:deploy` to deploy the themes and backend
 
 #### Put Magento 2 in developers mode
