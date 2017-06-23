@@ -14,7 +14,8 @@
     "localeOverwrites": true,
     "postcss": ["plugins.autoprefixer()"],
     "modules": {
-      "Iris_Core": "app/code/Iris/Core"
+      "Itris_Core": "app/code/Itris/Core",
+      "Itris_OwlCarousel": "app/code/Itris/OwlCarousel"
     },
     "ignore": [
       "vendor/snowdog/module-sample/{docs,dist}/**",
