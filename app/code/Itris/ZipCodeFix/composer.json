@@ -1,7 +1,7 @@
 
 {
-  "name": "itris/core",
-  "description": "A simple core module for Magento 2",
+  "name": "itris/zipcodefix",
+  "description": "A simple module for fixing zip codes notation in Magento 2",
   "authors": [
     {
       "name": "Itris",
@@ -17,10 +17,11 @@
   "version": "0.0.1",
   "license": [
     "MIT"
+  ],
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Itris\\Core\\": ""
+      "Itris\\ZipCodeFix\\": ""
     }
   }
 }
