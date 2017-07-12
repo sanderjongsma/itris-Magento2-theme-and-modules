@@ -51,7 +51,7 @@ Turn off admin notifications with n98-magerun2, run `n98-magerun2 admin:notifica
 
 ## Must haves in Magento 2 Development 
 
-**[Alen Storm Pestle](https://github.com/astorm/pestle)** A collection of command line scripts for Magento 2 code generation, and a PHP module system for organizing command line scripts.
+**[Alan Storm Pestle](https://github.com/astorm/pestle)** A collection of command line scripts for Magento 2 code generation, and a PHP module system for organizing command line scripts.
 
 **[n98-magerun2](https://github.com/netz98/n98-magerun2)** The swiss army knife for Magento developers, sysadmins and devops. The tool provides a huge set of well tested command line commands which save hours of work time. All commands are extendable by a module API. 
 
