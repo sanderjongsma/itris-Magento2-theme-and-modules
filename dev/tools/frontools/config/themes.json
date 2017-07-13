@@ -6,8 +6,8 @@
     "ignore": [".test"]
   },
   "iris": {
-    "src": "app/design/frontend/iris/iris",
-    "dest": "pub/static/frontend/Iris/iris",
+    "src": "app/design/frontend/Itris/iris",
+    "dest": "pub/static/frontend/Itris/iris",
     "locale": ["en_US"],
     "parent": "blank",
     "stylesDir": "web/css",
