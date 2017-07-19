@@ -1,7 +1,7 @@
 var config = {
 	"map": {
 		"*": {
-			"Chonsen": "Itris_ChosenCheckout/js/init-chosen"
+			"Chosen": "Itris_ChosenCheckout/js/init-chosen"
 		}
 	}
 };
