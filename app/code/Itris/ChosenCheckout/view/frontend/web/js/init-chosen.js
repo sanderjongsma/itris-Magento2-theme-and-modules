@@ -3,7 +3,7 @@
  * http://realize.be/mobile-support-chosen
  */
 
-require([
+define([
 	"jquery",
 	"chosen.jquery"
 ], function ($) {
