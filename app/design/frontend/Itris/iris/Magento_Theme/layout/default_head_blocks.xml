@@ -1,5 +1,6 @@
 <!-- Read more on Favicons; http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/themes/favicon.html -->
-<?xml version="1.0"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <link src="Magento_Theme::images/favicon-32x32.png" rel="icon" sizes="32x32" />
