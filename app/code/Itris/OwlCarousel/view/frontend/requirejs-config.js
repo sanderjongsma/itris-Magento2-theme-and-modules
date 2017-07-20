@@ -6,6 +6,6 @@ var config = {
 		}
 	},
 	"shim": {
-		"OwlCarousel.min":  ["jquery"]
+		"OwlCarousel.min": ["jquery"]
 	}
 };
