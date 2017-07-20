@@ -5,7 +5,7 @@
 
 define([
 	"jquery",
-	"chosen.jquery"
+	"Chosen-min"
 ], function ($) {
 	$(function () {
 		var initChosen = function(){
