@@ -25,12 +25,17 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 
 #### Put Magento 2 in developers mode
 * run `bin/magento deploy:mode:set developer` to set Magento 2 in developers mode
-* Check if Magento 2 is in developers mode and run `bin/magento deploy:mode:show` always check de `core_config_data` table if Magento 2 is in developers mode by looking up `dev/static/sign` value must be `0`. You can set developers mode manualy by running this query `INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0, 'dev/static/sign', '0');`
+* Check if Magento 2 is in developers mode and run `bin/magento deploy:mode:show` always check de `core_config_data` table if Magento 2 is in developers mode by looking up `dev/static/sign` value must be `0`. You can set developers mode manualy by running this query 
+
+```sql
+INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0, 'dev/static/sign', '1');
+```
+
 * Turn off Magento 2 Page Cache with `bin/magento cache:disable` or just elements of the Cache with `bin/magento cache:disable layout block_html` for example
 
 #### Check if your _theme type_ is in **Physical**
 
-```
+```sql
 INSERT INTO `theme` (`theme_id`, `parent_id`, `theme_path`, `theme_title`, `preview_image`, `is_featured`, `area`, `type`, `code`) VALUES (NULL, '4', NULL, 'Itris Iris', NULL, '0', 'frontend', '0', 'Itris/iris');
 ```
 
