@@ -33,7 +33,7 @@ INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0
 
 * Turn off Magento 2 Page Cache with `bin/magento cache:disable` or just elements of the Cache with `bin/magento cache:disable layout block_html` for example
 
-#### Check if your _theme type_ is in **Physical**
+#### Check if your _theme type_ is in _Physical_ mode
 
 ```sql
 INSERT INTO `theme` (`theme_id`, `parent_id`, `theme_path`, `theme_title`, `preview_image`, `is_featured`, `area`, `type`, `code`) VALUES (NULL, '4', NULL, 'Itris Iris', NULL, '0', 'frontend', '0', 'Itris/iris');
