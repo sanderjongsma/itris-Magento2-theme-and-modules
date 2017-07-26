@@ -28,7 +28,7 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 * Check if Magento 2 is in developers mode and run `bin/magento deploy:mode:show` always check de `core_config_data` table if Magento 2 is in developers mode by looking up `dev/static/sign` value must be `0`. You can set developers mode manualy by running this query 
 
 ```sql
-INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0, 'dev/static/sign', '1');
+INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0, 'dev/static/sign', '0');
 ```
 
 * Turn off Magento 2 Page Cache with `bin/magento cache:disable` or just elements of the Cache with `bin/magento cache:disable layout block_html` for example
