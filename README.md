@@ -28,6 +28,12 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 * Check if Magento 2 is in developers mode and run `bin/magento deploy:mode:show` always check de `core_config_data` table if Magento 2 is in developers mode by looking up `dev/static/sign` value must be `0`. You can set developers mode manualy by running this query `INSERT INTO core_config_data (scope, scope_id, path, value) VALUES ('default', 0, 'dev/static/sign', '0');`
 * Turn off Magento 2 Page Cache with `bin/magento cache:disable` or just elements of the Cache with `bin/magento cache:disable layout block_html` for example
 
+#### Check if your _theme type_ is in **Physical**
+
+```
+INSERT INTO `theme` (`theme_id`, `parent_id`, `theme_path`, `theme_title`, `preview_image`, `is_featured`, `area`, `type`, `code`) VALUES (NULL, '4', NULL, 'Itris Iris', NULL, '0', 'frontend', '0', 'Itris/iris');
+```
+
 #### Sample Data
 * Install Magento 2 sample data with `bin/magento sampledata:deploy` (you need you [public key and private key](https://www.magentocommerce.com/magento-connect/customerdata/accessKeys/list/) for this, you can get them by making a free account on [magentocommerce.com](https://www.magentocommerce.com/magento-connect/customer/account/login/))
 * When you installed the sample data run `bin/magento setup:upgrade`
