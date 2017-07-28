@@ -14,8 +14,8 @@
     "localeOverwrites": true,
     "postcss": ["plugins.autoprefixer()"],
     "modules": {
-      "Itris_Core": "app/code/Itris/Core",
-      "Itris_OwlCarousel": "app/code/Itris/OwlCarousel"
+      "Itris_Core": "app/code/Itris/Core/view/frontend",
+      "Itris_OwlCarousel": "app/code/Itris/OwlCarousel/view/frontend"
     },
     "ignore": [
       "vendor/snowdog/module-sample/{docs,dist}/**",
