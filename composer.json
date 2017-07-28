@@ -27,7 +27,7 @@
         "lusitanian/oauth": "~0.3 <=0.7.0",
         "honl/magento2-templatehints": "^0.2.1",
         "pulsestorm/pestle": "^1.4.1",
-        "snowdog/frontools": "^1.4.5",
+        "snowdog/frontools": "^1.5.5",
         "snowdog/theme-blank-sass": "^0.10.1"
     },
     "config": {
