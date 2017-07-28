@@ -10,9 +10,6 @@
     "dest": "pub/static/frontend/Itris/iris",
     "locale": ["en_US"],
     "parent": "blank",
-    "stylesDir": "web/css",
-    "localeOverwrites": true,
-    "postcss": ["plugins.autoprefixer()"],
     "modules": {
       "Itris_Core": "app/code/Itris/Core/view/frontend",
       "Itris_OwlCarousel": "app/code/Itris/OwlCarousel/view/frontend"
