@@ -2,7 +2,7 @@
     "name": "magento/project-community-edition",
     "description": "eCommerce Platform for Growth (Community Edition)",
     "type": "project",
-    "version": "2.1.7",
+    "version": "2.2.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -14,21 +14,12 @@
         }
     ],
     "require": {
-        "magento/product-community-edition": "^2.1.7",
+        "magento/product-community-edition": "^2.2.0",
         "composer/composer": "@alpha"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.1.0",
-        "squizlabs/php_codesniffer": "1.5.3",
-        "phpmd/phpmd": "@stable",
-        "pdepend/pdepend": "2.0.6",
-        "sjparkinson/static-review": "~4.1",
-        "friendsofphp/php-cs-fixer": "~1.2",
-        "lusitanian/oauth": "~0.3 <=0.7.0",
         "honl/magento2-templatehints": "^0.2.1",
-        "pulsestorm/pestle": "^1.4.1",
-        "snowdog/frontools": "^1.5.5",
-        "snowdog/theme-blank-sass": "^0.10.1"
+        "pulsestorm/pestle": "^1.4.1"
     },
     "config": {
         "use-include-path": true
