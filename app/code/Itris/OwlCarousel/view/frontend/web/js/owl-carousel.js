@@ -1,6 +1,6 @@
 define([
 	"jquery",
-	"OwlCarousel.min"
+	"owlCarousel.min"
 ], function($){
 	return function (config, element) {
 		return $(element).owlCarousel(config);
