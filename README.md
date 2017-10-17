@@ -1,6 +1,6 @@
 # Itris Magento 2 starters Theme and Module
 
-### Usefull for starting Theme Development on Magento 2
+### Useful for starting Theme Development on Magento 2
 
 Includes a basic Theme and Module structure, composer.json file for installing Magento 2 (2.1.7 CE), Latest versions of [Snowdog Frontools](https://github.com/SnowdogApps/magento2-frontools), [Snowdog Blank theme - SASS version](https://github.com/SnowdogApps/magento2-theme-blank-sass), [H&O Magento 2 Advanced Template Hints module](https://github.com/ho-nl/magento2-Ho_Templatehints) and ofcourse a .gitignore file for a great kick start of your project.
 
