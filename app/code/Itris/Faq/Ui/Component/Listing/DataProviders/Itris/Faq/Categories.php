@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Ui\Component\Listing\DataProviders\Elgentos\Faq;
+namespace Itris\Faq\Ui\Component\Listing\DataProviders\Itris\Faq;
 
 class Categories extends \Magento\Ui\DataProvider\AbstractDataProvider
 {    
@@ -7,7 +7,7 @@ class Categories extends \Magento\Ui\DataProvider\AbstractDataProvider
         $name,
         $primaryFieldName,
         $requestFieldName,
-        \Elgentos\Faq\Model\ResourceModel\Category\CollectionFactory $collectionFactory,
+        \Itris\Faq\Model\ResourceModel\Category\CollectionFactory $collectionFactory,
         array $meta = [],
         array $data = []
     ) {

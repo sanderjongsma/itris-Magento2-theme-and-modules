@@ -1,9 +1,9 @@
 <?php
-namespace Elgentos\Faq\Controller\Adminhtml\Item;
+namespace Itris\Faq\Controller\Adminhtml\Item;
 
 class Edit extends \Magento\Backend\App\Action
 {
-    const ADMIN_RESOURCE = 'Elgentos_Faq::items';       
+    const ADMIN_RESOURCE = 'Itris_Faq::items';
     protected $resultPageFactory;
     public function __construct(
         \Magento\Backend\App\Action\Context $context,

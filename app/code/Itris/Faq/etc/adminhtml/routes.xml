@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route id="elgentos_faq" frontName="elgentos_faq">
-            <module name="Elgentos_Faq"/>
+        <route id="itris_faq" frontName="itris_faq">
+            <module name="Itris_Faq"/>
         </route>
     </router>
 </config>

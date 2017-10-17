@@ -1,6 +1,6 @@
 <?php
     \Magento\Framework\Component\ComponentRegistrar::register(
         \Magento\Framework\Component\ComponentRegistrar::MODULE,
-        'Elgentos_Faq',
+        'Itris_Faq',
         __DIR__
     );

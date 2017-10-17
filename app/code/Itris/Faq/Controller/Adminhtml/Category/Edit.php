@@ -1,9 +1,9 @@
 <?php
-namespace Elgentos\Faq\Controller\Adminhtml\Category;
+namespace Itris\Faq\Controller\Adminhtml\Category;
 
 class Edit extends \Magento\Backend\App\Action
 {
-    const ADMIN_RESOURCE = 'Elgentos_Faq::categories';       
+    const ADMIN_RESOURCE = 'Itris_Faq::categories';
     protected $resultPageFactory;
     public function __construct(
         \Magento\Backend\App\Action\Context $context,

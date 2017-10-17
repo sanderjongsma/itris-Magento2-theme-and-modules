@@ -1,9 +1,9 @@
 <?php
-namespace Elgentos\Faq\Controller\Adminhtml\Categories;
+namespace Itris\Faq\Controller\Adminhtml\Categories;
 class Index extends \Magento\Backend\App\Action
 {
     
-    const ADMIN_RESOURCE = 'Elgentos_Faq::categories';
+    const ADMIN_RESOURCE = 'Itris_Faq::categories';
         
     protected $resultPageFactory;
     public function __construct(

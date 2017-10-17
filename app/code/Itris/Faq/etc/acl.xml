@@ -3,8 +3,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Elgentos_Faq::items" title="Manage Items"/>
-                <resource id="Elgentos_Faq::categories" title="Manage Categories"/>
+                <resource id="Itris_Faq::items" title="Manage Items"/>
+                <resource id="Itris_Faq::categories" title="Manage Categories"/>
             </resource>
         </resources>
     </acl>

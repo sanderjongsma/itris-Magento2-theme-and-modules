@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Block\Adminhtml\Item\Edit;
+namespace Itris\Faq\Block\Adminhtml\Item\Edit;
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 class BackButton extends GenericButton implements ButtonProviderInterface
 {     

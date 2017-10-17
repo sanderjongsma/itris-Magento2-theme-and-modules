@@ -1,6 +1,6 @@
 <?php
 
-namespace Elgentos\Faq\Ui\DataProvider\Category\Form\Modifier;
+namespace Itris\Faq\Ui\DataProvider\Category\Form\Modifier;
 
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AbstractModifier;
 

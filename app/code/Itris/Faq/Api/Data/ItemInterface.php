@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Api\Data;
+namespace Itris\Faq\Api\Data;
 interface ItemInterface 
 {
 }

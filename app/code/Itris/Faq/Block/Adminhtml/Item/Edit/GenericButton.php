@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Block\Adminhtml\Item\Edit;
+namespace Itris\Faq\Block\Adminhtml\Item\Edit;
 
 class GenericButton
 {
@@ -28,6 +28,6 @@ class GenericButton
     
     public function getObjectId()
     {
-        return $this->context->getRequest()->getParam('elgentos_faq_item_id');
+        return $this->context->getRequest()->getParam('itris_faq_item_id');
     }     
 }

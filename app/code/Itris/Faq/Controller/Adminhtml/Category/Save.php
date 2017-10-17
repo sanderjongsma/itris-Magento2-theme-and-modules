@@ -1,8 +1,8 @@
 <?php
-namespace Elgentos\Faq\Controller\Adminhtml\Category;
+namespace Itris\Faq\Controller\Adminhtml\Category;
 
 use Magento\Backend\App\Action;
-use Elgentos\Faq\Model\Page;
+use Itris\Faq\Model\Page;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Framework\Exception\LocalizedException;
             
@@ -13,7 +13,7 @@ class Save extends \Magento\Backend\App\Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Elgentos_Faq::categories';
+    const ADMIN_RESOURCE = 'Itris_Faq::categories';
 
     /**
      * @var DataPersistorInterface
@@ -45,16 +45,16 @@ class Save extends \Magento\Backend\App\Action
         $resultRedirect = $this->resultRedirectFactory->create();
         if ($data) {
             if (isset($data['is_active']) && $data['is_active'] === 'true') {
-                $data['is_active'] = Elgentos\Faq\Model\Category::STATUS_ENABLED;
+                $data['is_active'] = Itris\Faq\Model\Category::STATUS_ENABLED;
             }
-            if (empty($data['elgentos_faq_category_id'])) {
-                $data['elgentos_faq_category_id'] = null;
+            if (empty($data['itris_faq_category_id'])) {
+                $data['itris_faq_category_id'] = null;
             }
 
-            /** @var Elgentos\Faq\Model\Category $model */
-            $model = $this->_objectManager->create('Elgentos\Faq\Model\Category');
+            /** @var Itris\Faq\Model\Category $model */
+            $model = $this->_objectManager->create('Itris\Faq\Model\Category');
 
-            $id = $this->getRequest()->getParam('elgentos_faq_category_id');
+            $id = $this->getRequest()->getParam('itris_faq_category_id');
             if ($id) {
                 $model->load($id);
             }
@@ -64,9 +64,9 @@ class Save extends \Magento\Backend\App\Action
             try {
                 $model->save();
                 $this->messageManager->addSuccess(__('You saved the category.'));
-                $this->dataPersistor->clear('elgentos_faq_category');
+                $this->dataPersistor->clear('itris_faq_category');
                 if ($this->getRequest()->getParam('back')) {
-                    return $resultRedirect->setPath('*/category/edit', ['elgentos_faq_category_id' => $model->getId(), '_current' => true]);
+                    return $resultRedirect->setPath('*/category/edit', ['itris_faq_category_id' => $model->getId(), '_current' => true]);
                 }
                 return $resultRedirect->setPath('*/categories/');
             } catch (LocalizedException $e) {
@@ -75,8 +75,8 @@ class Save extends \Magento\Backend\App\Action
                 $this->messageManager->addException($e, __('Something went wrong while saving the data.'));
             }
 
-            $this->dataPersistor->set('elgentos_faq_category', $data);
-            return $resultRedirect->setPath('*/category/edit', ['elgentos_faq_category_id' => $this->getRequest()->getParam('elgentos_faq_category_id')]);
+            $this->dataPersistor->set('itris_faq_category', $data);
+            return $resultRedirect->setPath('*/category/edit', ['itris_faq_category_id' => $this->getRequest()->getParam('itris_faq_category_id')]);
         }
         return $resultRedirect->setPath('*/categories/');
     }    

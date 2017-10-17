@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Ui\Component\Listing\Column\Elgentosfaqitems;
+namespace Itris\Faq\Ui\Component\Listing\Column\Itrisfaqitems;
 
 class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
 {
@@ -9,13 +9,13 @@ class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
             foreach ($dataSource["data"]["items"] as & $item) {
                 $name = $this->getData("name");
                 $id = "X";
-                if(isset($item["elgentos_faq_item_id"]))
+                if(isset($item["itris_faq_item_id"]))
                 {
-                    $id = $item["elgentos_faq_item_id"];
+                    $id = $item["itris_faq_item_id"];
                 }
                 $item[$name]["view"] = [
                     "href"=>$this->getContext()->getUrl(
-                        "elgentos_faq/item/edit",["elgentos_faq_item_id"=>$id]),
+                        "itris_faq/item/edit",["itris_faq_item_id"=>$id]),
                     "label"=>__("Edit")
                 ];
             }

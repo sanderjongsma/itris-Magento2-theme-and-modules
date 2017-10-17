@@ -1,5 +1,5 @@
 <?php
-namespace Elgentos\Faq\Block\Adminhtml\Category\Edit;
+namespace Itris\Faq\Block\Adminhtml\Category\Edit;
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 class DeleteButton extends GenericButton implements ButtonProviderInterface
 {     

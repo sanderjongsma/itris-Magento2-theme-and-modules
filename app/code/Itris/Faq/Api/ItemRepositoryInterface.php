@@ -1,7 +1,7 @@
 <?php
-namespace Elgentos\Faq\Api;
+namespace Itris\Faq\Api;
 
-use Elgentos\Faq\Api\Data\ItemInterface;
+use Itris\Faq\Api\Data\ItemInterface;
 use Magento\Framework\Api\SortOrder;
 use Magento\Framework\Api\SearchCriteriaInterface;
 

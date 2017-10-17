@@ -1,8 +1,8 @@
 <?php
-namespace Elgentos\Faq\Model\Category;
+namespace Itris\Faq\Model\Category;
 
-use Elgentos\Faq\Model\ResourceModel\Category\CollectionFactory;
-use Elgentos\Faq\Model\ResourceModel\Category;
+use Itris\Faq\Model\ResourceModel\Category\CollectionFactory;
+use Itris\Faq\Model\ResourceModel\Category;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Ui\DataProvider\AbstractDataProvider;
 
@@ -81,12 +81,12 @@ class DataProvider extends AbstractDataProvider
             $this->loadedData[$item->getId()] = $itemData;
         }
 
-        $data = $this->dataPersistor->get('elgentos_faq_category');
+        $data = $this->dataPersistor->get('itris_faq_category');
         if (!empty($data)) {
             $item = $this->collection->getNewEmptyItem();
             $item->setData($data);
             $this->loadedData[$item->getId()] = $itemData;
-            $this->dataPersistor->clear('elgentos_faq_category');
+            $this->dataPersistor->clear('itris_faq_category');
         }
 
         return $this->loadedData;

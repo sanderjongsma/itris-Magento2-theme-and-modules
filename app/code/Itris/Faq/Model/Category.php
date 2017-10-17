@@ -1,12 +1,12 @@
 <?php
-namespace Elgentos\Faq\Model;
-class Category extends \Magento\Framework\Model\AbstractModel implements \Elgentos\Faq\Api\Data\CategoryInterface, \Magento\Framework\DataObject\IdentityInterface
+namespace Itris\Faq\Model;
+class Category extends \Magento\Framework\Model\AbstractModel implements \Itris\Faq\Api\Data\CategoryInterface, \Magento\Framework\DataObject\IdentityInterface
 {
-    const CACHE_TAG = 'elgentos_faq_category';
+    const CACHE_TAG = 'itris_faq_category';
 
     protected function _construct()
     {
-        $this->_init('Elgentos\Faq\Model\ResourceModel\Category');
+        $this->_init('Itris\Faq\Model\ResourceModel\Category');
     }
 
     public function getIdentities()

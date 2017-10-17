@@ -1,12 +1,12 @@
 <?php
-namespace Elgentos\Faq\Model;
-class Item extends \Magento\Framework\Model\AbstractModel implements \Elgentos\Faq\Api\Data\ItemInterface, \Magento\Framework\DataObject\IdentityInterface
+namespace Itris\Faq\Model;
+class Item extends \Magento\Framework\Model\AbstractModel implements \Itris\Faq\Api\Data\ItemInterface, \Magento\Framework\DataObject\IdentityInterface
 {
-    const CACHE_TAG = 'elgentos_faq_item';
+    const CACHE_TAG = 'itris_faq_item';
 
     protected function _construct()
     {
-        $this->_init('Elgentos\Faq\Model\ResourceModel\Item');
+        $this->_init('Itris\Faq\Model\ResourceModel\Item');
     }
 
     public function getIdentities()

@@ -1,9 +1,9 @@
 <?php
-namespace Elgentos\Faq\Controller\Adminhtml\Item;
+namespace Itris\Faq\Controller\Adminhtml\Item;
 
 class Delete extends \Magento\Backend\App\Action
 {  
-    const ADMIN_RESOURCE = 'Elgentos_Faq::items';   
+    const ADMIN_RESOURCE = 'Itris_Faq::items';
           
     public function execute()
     {
@@ -15,7 +15,7 @@ class Delete extends \Magento\Backend\App\Action
             $title = "";
             try {
                 // init model and delete
-                $model = $this->_objectManager->create('Elgentos\Faq\Model\Item');
+                $model = $this->_objectManager->create('Itris\Faq\Model\Item');
                 $model->load($id);
                 $model->delete();
                 // display success message
@@ -26,7 +26,7 @@ class Delete extends \Magento\Backend\App\Action
                 // display error message
                 $this->messageManager->addError($e->getMessage());
                 // go back to edit form
-                return $resultRedirect->setPath('*/item/edit', ['elgentos_faq_item_id' => $id]);
+                return $resultRedirect->setPath('*/item/edit', ['itris_faq_item_id' => $id]);
             }
         }
         // display error message
