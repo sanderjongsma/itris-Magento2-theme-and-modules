@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Itris_Core::itrisitems" resource="Itris_Core::itrisitems" title="Itris" action="itris_core/index/index" module="Itris_Core" sortOrder="79"/>
+    </menu>
+</config>
