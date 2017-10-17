@@ -6,6 +6,11 @@ Includes a basic Theme and Module structure, composer.json file for installing M
 
 
 
+### Modules included in this starter theme
+- Itris_Faq (Module for faq items with categories)
+
+
+
 ## You need to have already installed
 * A local development environment with a web server with PHP7 (not 7.1), database server and dnsmasq so you can run a domain like `.dev`
 * [Composer](https://getcomposer.org/) dependency manager for PHP
