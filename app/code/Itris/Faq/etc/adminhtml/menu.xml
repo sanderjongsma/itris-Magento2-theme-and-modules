@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Itris_Faq::faq" resource="Itris_Faq::faq" title="Faq" action="itris_faq/items/index" module="Itris_Faq" sortOrder="30" parent="Itris_Core::itrisitems" dependsOnModule="Itris_Core"/>
+        <add id="Itris_Faq::items" resource="Itris_Faq::items" title="Faq items" action="itris_faq/items/index" module="Itris_Faq" sortOrder="10" parent="Itris_Faq::faq"/>
+        <add id="Itris_Faq::categories" resource="Itris_Faq::categories" title="Faq categories" action="itris_faq/categories/index" module="Itris_Faq" sortOrder="20" parent="Itris_Faq::faq"/>
+    </menu>
+</config>
